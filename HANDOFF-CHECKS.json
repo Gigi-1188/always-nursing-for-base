@@ -1,0 +1,32 @@
+{
+  "prepared_for": "Native Base44 frontend hosting, Base44 Auth, StaffingHub actor records and private Base44 storage",
+  "tests_passed": 77,
+  "native_backend_tests": 14,
+  "pure_workflow_tests": 63,
+  "checks_passed": [
+    "TypeScript typecheck",
+    "Vite React build with local validation app ID",
+    "Actor dependency bundling with platform runtime imports external",
+    "Portable SQLite schema and additive upgrade preservation",
+    "Verified account and staff separation",
+    "Concurrent booking, idempotent replay, credential/hiring/DNR checks",
+    "Inactive access and private ownership",
+    "GPS and RN/LPN signoff",
+    "Automatic NCNS suspension",
+    "Snapshot publication rollback, corruption detection, backup export and local record restoration"
+  ],
+  "not_verified": [
+    "Actual Base44 deployment and actor execution",
+    "Real Base44 email, identity and private storage provider flows",
+    "Base44 platform permission settings and staff MFA",
+    "Phone acceptance and sustained load",
+    "Live data export/import and private file migration",
+    "Independent file and records disaster restoration"
+  ],
+  "limits": {
+    "record_database_bytes": 8388608,
+    "song_video_upload_bytes": 10485760
+  },
+  "live_site_changed": false,
+  "live_records_included": false
+}
