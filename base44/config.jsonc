@@ -1,0 +1,13 @@
+{
+  "name": "Always Nursing Staffing Agency",
+  "description": "Agency and employee staffing operations",
+  "visibility": "public",
+  "actorsDir": "./actors",
+  "authDir": "./auth",
+  "site": {
+    "installCommand": "npm ci",
+    "buildCommand": "npm run build",
+    "serveCommand": "npm run dev",
+    "outputDirectory": "./dist"
+  }
+}

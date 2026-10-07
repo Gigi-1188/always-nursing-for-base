@@ -1,0 +1,8 @@
+{
+  "enableUsernamePassword": true,
+  "enableGoogleLogin": false,
+  "enableMicrosoftLogin": false,
+  "enableFacebookLogin": false,
+  "enableAppleLogin": false,
+  "enableSSOLogin": false
+}

@@ -1,0 +1,3 @@
+declare module 'base44:runtime/actors' {export abstract class Actor<I=unknown,O=unknown>{protected instanceId:string;protected storage:import("../native/snapshots.ts").Storage;protected client:import("@base44/sdk").Base44Client;abstract handleConnect(conn:any):void|Promise<void>;abstract handleMessage(conn:any,msg:I):void|Promise<void>;abstract handleClose(conn:any):void|Promise<void>;abstract handleTick():void|Promise<void>;handleStart():void|Promise<void>;}}
+declare module 'base44:runtime' {export const secrets:{get(name:string):string|undefined};}
+declare module 'sql.js/dist/sql-asm.js' {import type {SqlJsStatic} from 'sql.js';const init:()=>Promise<SqlJsStatic>;export default init;}
